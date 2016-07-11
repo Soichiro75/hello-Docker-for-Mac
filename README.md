@@ -4,7 +4,7 @@
 
 **This procedure is Docker for Mac installation, NOT Docker Toolbox**
 
-- Go to [Docker Page](https://www.docker.com/products/docker)
+- Go to [Docker Page](https://www.docker.com/products/docker).
 
   - Note:
     - "Docker for Mac" is currently in public beta.
@@ -34,7 +34,33 @@
 
 <img src="https://github.com/Soichiro75/hello-docker-for-mac/blob/master/images/2016-07-11_08_ClickTheWhale.png" width="320px">
 
+- Check version of Docker Engine, Compose, and Machine
 
-## aaa
+```
+$ docker --version
+Docker version 1.12.0-rc3, build 91e29e8, experimental
 
-aaaa
+$ docker-compose --version
+docker-compose version 1.8.0-rc1, build 9bf6bc6
+
+$ docker-machine --version
+docker-machine version 0.8.0-rc1, build fffa6c9
+```
+
+
+## Run Example App
+
+- docker run -d -p 80:80 --name webserver nginx
+
+- docker ps
+
+```
+CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS                         NAMES
+319bd7d2893f        nginx               "nginx -g 'daemon off"   43 seconds ago      Up 43 seconds       0.0.0.0:80->80/tcp, 443/tcp   webserver
+```
+
+- In a web browser, go to http://localhost/ to bring up the home page.
+
+<img src="https://github.com/Soichiro75/hello-docker-for-mac/blob/master/images/2016-07-11_09_WelcomeToNginx.png" width="320px">
+
+For more details, see [Getting Started with Docker for Mac](https://docs.docker.com/docker-for-mac/).
