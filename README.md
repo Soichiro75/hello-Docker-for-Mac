@@ -23,6 +23,7 @@
 <img src="https://github.com/Soichiro75/hello-docker-for-mac/blob/master/images/2016-07-11_01_InstallDocker.png" width="320px">
 
 - Double-click Docker.app in your applications directory to start Docker.
+
 <img src="https://github.com/Soichiro75/hello-docker-for-mac/blob/master/images/2016-07-11_02_OpenDocker.png" width="320px">
 
 - A whale(<img src="https://github.com/Soichiro75/hello-docker-for-mac/blob/master/images/2016-07-11_06_whale-x.png">) in the top status bar indicates that Docker is running, and accessible from a terminal. Click the whale (<img src="https://github.com/Soichiro75/hello-docker-for-mac/blob/master/images/2016-07-11_06_whale-x.png">) in the status bar to dismiss this popup.
