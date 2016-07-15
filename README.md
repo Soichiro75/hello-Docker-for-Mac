@@ -1,5 +1,8 @@
 # hello-docker-for-mac
 
+This document is still incomplete.
+
+
 ## Install Docker for Mac
 
 **This procedure is Docker for Mac installation, NOT Docker Toolbox**
@@ -18,7 +21,7 @@
 
 <img src="https://github.com/Soichiro75/hello-docker-for-mac/blob/master/images/2016-07-07_DownloadDockerDmg.png" width="320px">
 
-- Double-click Docker.dmg to open the installer, then drag Moby the whale to the Applications folder.
+- Double-click Docker.dmg to open the installer, then drag & drop the whale to the Applications folder.
 
 <img src="https://github.com/Soichiro75/hello-docker-for-mac/blob/master/images/2016-07-11_01_InstallDocker.png" width="320px">
 
